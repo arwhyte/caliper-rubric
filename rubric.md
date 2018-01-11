@@ -1,6 +1,5 @@
 ### <a name="rubric"></a>C.X Rubric
-
-A Caliper [Rubric](#rubric) represents . . . \[TODO\] add description.
+A Caliper [Rubric](./rubric.md) represents . . . \[TODO define \].
 
 #### IRI
 http://purl.imsglobal.org/caliper/Rubric

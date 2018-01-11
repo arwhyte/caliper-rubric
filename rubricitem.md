@@ -1,6 +1,5 @@
 ### <a name="rubricItem"></a>C.4 RubricItem
-
-A Caliper [RubricItem](#rubricItem) represents a . . . \[TODO\] add description.
+A Caliper [RubricItem](#rubricItem) represents . . . \[TODO define \].
 
 #### IRI
 http://purl.imsglobal.org/caliper/RubricItem
