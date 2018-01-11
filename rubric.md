@@ -1,5 +1,3 @@
-## Rubric-related entities
-
 ### <a name="rubric"></a>C.X Rubric
 
 A Caliper [Rubric](#rubric) represents . . . \[TODO\] add description.
