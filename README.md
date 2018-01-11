@@ -62,7 +62,7 @@ Result](#result) and [Score](#score).
 | :------- | :--- | ----------- |
 | [Assessment Profile](#assessmentProfile) | [AssessmentEvent](#assessmentEvent), [AssessmentItemEvent](#assessmentItemEvent) | [Assessment](#assessment), [AssessmentItem](#assessmentItem) |
 | [Assignable Profile](#assignableProfile) | [AssignableEvent](#assignableEvent) | [AssignableDigitalResource](#assignableDigitalResource) |
-| [Grading Profile](#gradingProfile) | [AssignableEvent](#assignableEvent) | [AssignableDigitalResource](#assignableDigitalResource), [Result](#result), [Score](#score) |
+| [Grading Profile](#gradingProfile) | [GradeEvent](#gradeEvent) | [AssignableDigitalResource](#assignableDigitalResource), [Result](#result), [Score](#score) |
 | \*[Entity Management Profile](#entityMgmtProfile) | [EntityMgmtEvent](#entityMgmtEvent), [ViewEvent](#viewEvent) | [AssignableDigitalResource](#assignableDigitalResource) |
 
 \*Proposed for Caliper 1.2
