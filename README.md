@@ -1,21 +1,26 @@
-# IMS Caliper Rubric-related entities (draft)
+# IMS Caliper Rubric-related Entities (draft)
 
 ## Rationale
-Currently, Caliper provides no vocabulary for describing performance expectations for a given [AssignableDigitalResource](#AssignableDigitalResource) or a way of linking a [Result](#result) or a [Score](#score) to the underlying evaluative criteria employed in the scoring process.  We propose extending the Caliper vocabulary with a set of Rubric-related entities . . . .  \[TODO\ rationale]
+\[TODO\ complete rationale]
+
+Currently, Caliper provides no vocabulary for describing performance expectations for a given [AssignableDigitalResource](#AssignableDigitalResource) or a way of linking a [Result](#result) or a [Score](#score) to the underlying evaluative criteria employed in the scoring process.  We propose extending the Caliper vocabulary with a set of Rubric-related entities . . . .
 
 ## Telemetry
-\[TODO\]
-* Link a [Rubric](./rubric.md) [AssignableDigitalResource](#AssignableDigitalResource), [Result](#result) or a [Score](#score) in order to simplify analysis of performance criteria.
+\[TODO\ other cases?]
+* Link a [Rubric](./rubric.md) to an  [AssignableDigitalResource](#AssignableDigitalResource), [Result](#result) or a [Score](#score) in order to simplify analysis of performance criteria.
 * Track a learner who views a [Rubric](./rubric.md) associated with an [AssignableDigitalResource](#AssignableDigitalResource), [Result](#result) or a [Score](#score).
 * Track an Instructor who creates, edits or deletes a [Rubric](./rubric.md) and or [RubricItem](./rubricItem) and/or links a [Rubric](./rubric.md) to an [AssignableDigitalResource](#assignableDigitalResource).
 
-## Proposed vocabulary additions:
+## Proposed Vocabulary Additions
 
 ### Rubric
 A Caliper [Rubric](./rubric.md) represents . . . \[TODO define \].
 
 #### Supertype
 [DigitalResourceCollection](#digitalResourceCollection)
+
+#### Properties
+See [Rubric](./rubric.md).
 
 #### JSON-LD term mapping
 ```
@@ -30,6 +35,9 @@ A Caliper [RubricItem](./rubricItem.md) represents . . . \[TODO define \].
 #### Supertype
 [DigitalResource](#digitalResource)
 
+#### Properties
+See [RubricItem](./rubricItem.md).
+
 #### JSON-LD term mapping
 ```
 {
@@ -38,7 +46,7 @@ A Caliper [RubricItem](./rubricItem.md) represents . . . \[TODO define \].
 ```
 
 ### rubric
-An optional Caliper Object property of type [Rubric](#rubric) that will be added to [AssignableDigitalResource](#assignableDigitalResource), [
+An optional Caliper Object property of type [Rubric](#rubric) added to [AssignableDigitalResource](#assignableDigitalResource), [
 Result](#result) and [Score](#score).
 
 #### JSON-LD term mapping
@@ -55,7 +63,7 @@ Result](#result) and [Score](#score).
 | [Assessment Profile](#assessmentProfile) | [AssessmentEvent](#assessmentEvent), [AssessmentItemEvent](#assessmentItemEvent) | [Assessment](#assessment), [AssessmentItem](#assessmentItem) |
 | [Assignable Profile](#assignableProfile) | [AssignableEvent](#assignableEvent) | [AssignableDigitalResource](#assignableDigitalResource) |
 | [Grading Profile](#gradingProfile) | [AssignableEvent](#assignableEvent) | [AssignableDigitalResource](#assignableDigitalResource), [Result](#result), [Score](#score) |
-| \*[Entity Management Profile](#entityMgmtProfile) | [EntityMgmtEvent](#entityMgmtEvent), [ViewEvent](#viewEvent) | [AssignableDigitalResource](#assignableDigitalResource)
+| \*[Entity Management Profile](#entityMgmtProfile) | [EntityMgmtEvent](#entityMgmtEvent), [ViewEvent](#viewEvent) | [AssignableDigitalResource](#assignableDigitalResource) |
 \*Proposed for Caliper 1.2
 
 ### Open Questions
