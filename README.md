@@ -19,8 +19,8 @@ A Caliper [Rubric](./rubric.md) represents . . . \[TODO define \].
 #### Supertype
 [DigitalResourceCollection](#digitalResourceCollection)
 
-#### Properties
-See [Rubric](./rubric.md).
+#### New Properties
+TBD. See also [Rubric](./rubric.md).
 
 #### JSON-LD term mapping
 ```
@@ -35,8 +35,8 @@ A Caliper [RubricItem](./rubricItem.md) represents . . . \[TODO define \].
 #### Supertype
 [DigitalResource](#digitalResource)
 
-#### Properties
-See [RubricItem](./rubricItem.md).
+#### New Properties
+TBD. See also [RubricItem](./rubricItem.md).
 
 #### JSON-LD term mapping
 ```
