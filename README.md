@@ -64,6 +64,7 @@ Result](#result) and [Score](#score).
 | [Assignable Profile](#assignableProfile) | [AssignableEvent](#assignableEvent) | [AssignableDigitalResource](#assignableDigitalResource) |
 | [Grading Profile](#gradingProfile) | [AssignableEvent](#assignableEvent) | [AssignableDigitalResource](#assignableDigitalResource), [Result](#result), [Score](#score) |
 | \*[Entity Management Profile](#entityMgmtProfile) | [EntityMgmtEvent](#entityMgmtEvent), [ViewEvent](#viewEvent) | [AssignableDigitalResource](#assignableDigitalResource) |
+
 \*Proposed for Caliper 1.2
 
 ### Open Questions
