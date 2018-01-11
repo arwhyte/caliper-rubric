@@ -13,7 +13,7 @@ Currently, Caliper provides no vocabulary for describing performance expectation
 
 ## Proposed Vocabulary Additions
 
-### Rubric
+### 1. Rubric
 A Caliper [Rubric](./rubric.md) represents . . . \[TODO define \].
 
 #### Supertype
@@ -29,7 +29,7 @@ See [Rubric](./rubric.md).
 }
 ```
 
-### RubricItem
+### 2. RubricItem
 A Caliper [RubricItem](./rubricItem.md) represents . . . \[TODO define \].
 
 #### Supertype
@@ -45,7 +45,7 @@ See [RubricItem](./rubricItem.md).
 }
 ```
 
-### rubric
+### 3. rubric
 An optional Caliper Object property of type [Rubric](#rubric) added to [AssignableDigitalResource](#assignableDigitalResource), [
 Result](#result) and [Score](#score).
 
